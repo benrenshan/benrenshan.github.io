@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /go/test
+      link: /go/1
     - theme: alt
       text: GitHub
       link: https://github.com/mewcoder/fe-100

@@ -8,32 +8,29 @@ export default defineConfig({
     nav: [
       {
         text: "golang",
-        link: '/go'
+        link: "/go/1",
       },
       {
-        text: "算法",link: '/algo'
+        text: "算法",
+        link: "/algo/1",
       },
     ],
     sidebar: {
       "/go/": [
         {
-          title: "基础",
+          text: "基础",
           collapsible: true,
-          items: [
-            { text: "golang1", link: "/go/1" },
-          ],
+          items: [{ text: "golang1", link: "/go/1" }],
         },
         {
-          title: "提高",
+          text: "提高",
           collapsible: true,
-          items: [
-            { text: "golang2", link: "/go/2" },
-          ],
-        }
+          items: [{ text: "golang2", link: "/go/2" }],
+        },
       ],
       "/algo/": [
         {
-          title: "算法",
+          text: "算法",
           collapsible: true,
           items: [
             { text: "算法1", link: "/algo/1" },
