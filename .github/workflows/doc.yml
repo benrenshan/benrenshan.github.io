@@ -27,7 +27,7 @@ jobs:
         run: pnpm install
 
       - name: Build project
-        run: build
+        run: pnpm build
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
