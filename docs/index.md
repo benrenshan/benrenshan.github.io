@@ -14,7 +14,7 @@ hero:
       link: /go/1
     - theme: alt
       text: GitHub
-      link: https://github.com/mewcoder/fe-100
+      link: https://github.com/benrenshan
 features:
   - icon: ⚡️
     title: Vite, The DX that can't be beat
